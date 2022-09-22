@@ -1,91 +1,237 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integrador</title>
+  <link rel="stylesheet" href="/css/integradorStyle.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-md bg-light mx-1">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Codo a Codo  </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-             
-              <li class="nav-item">
-                <a class="nav-link" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#">Link</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link disabled">Desabilitado</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
+  
+
+  <nav class="navbar navbar-expand-md bg-dark bg-opacity-75 ">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white " href="#">
+        <img src="../imagenes/codoacodo.png" alt="Logo" width="75" height="40" class="d-inline-block align-text-top">
+        Conf Bs As
+      </a>
+      <button class="navbar-toggler md" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5 ">
+            <li class="nav-item">
+              <a class="nav-link px-2  active text-white" aria-current="page" href="#">La conferencia</a>
+            <li class="nav-item">
+              <a class="nav-link px-2 text-muted" href="#">Los oradores</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link px-2 text-muted" href="#">Lugar y fecha</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link px-2 text-muted" href="#">Convertite en orador</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link px-2 text-success">Comprar tickets</a>
+            </li>
+      
+         
+
+    </div>
+  </nav>
+
+  <main>
+    <div class=" img-fluid p-5 mb-2 bgestadio  text-white text-end lg-md">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-6"></div>
+          <div class="col-6">
+            <h1 class="display-4">Conf BsAs</h1>
+            <h1 class=" fw-bold mb-auto ">Conf BsAs</h1>
+            <div class=" fs-5 mb-4 ms-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, aut repellendus
+            labore
+            quos sapiente commodi maiores nemo nesciunt quam culpa eligendi iste sequi officiis earum cum numquam
+            voluptatum. Blanditiis, accusamus.</div>
+        
+
+        <button class="btn btn bg-transparent btn-lg text-white border border-white " type="button">Quiero ser
+          orador</button>
+        <button class="btn  btn-lg text-white" type="button" style="background-color:rgb(41,167,70) ;">Comprar
+          Tickets</button>
+      </div>
           </div>
         </div>
-      </nav>
-      <div class="row mx-1">
-        <div class="card-group">
-            <div class="card col-3 ">
-              <img src="/ejercicios/imagenes/html5.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">titulo 1</h5>
-                <p class="card-text">Contenido de Card</p>
-                <p class="card-text"><small class="text-muted">Ultima actualizacion 1</small></p>
-              </div>
-            </div>
-            <div class="card col-3">
-              <img src="/ejercicios/imagenes/css.JPG" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">titulo 2</h5>
-                <p class="card-text">Contenido de Card</p>
-                <p class="card-text"><small class="text-muted">Ultima actualizacion 1</small></p>
-              </div>
-            </div>
-            <div class="card col-3">
-              <img src="/ejercicios/imagenes/boostrap.JPG" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">titulo 3</h5>
-                <p class="card-text">Contenido de Card</p>
-                <p class="card-text"><small class="text-muted">Ultima actualizacion 1</small></p>
-              </div>
-            </div>
-          </div>
-      </div>
-      <div class="col ">
-        <form class=" mx-3 mt-2 mb-3">
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email </label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">Nunca comparta su email.</div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Verificar</label>
-          </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-    
       </div>
         
+      </div>
+    </div>
+
+      <!-- <div class="container py-5 mt-5 md-lg">
+        
+        <div class="row md-lg mt-3 conteiner-fluid ">
+          <div class="col-6"></div>
+          <div class="col-6"></div>
+          <h1 class=" fw-bold mb-auto ">Conf BsAs</h1>
+          <div class="col-6 fs-5 mb-4 ms-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, aut repellendus
+            labore
+            quos sapiente commodi maiores nemo nesciunt quam culpa eligendi iste sequi officiis earum cum numquam
+            voluptatum. Blanditiis, accusamus.</div>
+        </div>
+
+        <button class="btn btn bg-transparent btn-lg text-white border border-white " type="button">Quiero ser
+          orador</button>
+        <button class="btn  btn-lg text-white" type="button" style="background-color:rgb(41,167,70) ;">Comprar
+          Tickets</button>
+      </div>
+    </div> -->
+
+    <div class="row md">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <div class="row row-cols-1 row-cols-md-3 g-4 ">
+          <div class="col">
+            <div class="card h-100 ">
+              <img src="/ejercicios/imagenes/messi.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <div>
+                  <button href="#" class="btn btn-warning py-0  btn-sm fw-bold ">Javascript</button>
+                  <button href="#" class="btn btn-info py-0 text-white  btn-sm fw-bold">React</button>
+                </div>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 ">
+              <img src="/ejercicios/imagenes/de paul.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <div>
+                  <button href="#" class="btn btn-warning py-0  btn-sm fw-bold ">Javascript</button>
+                  <button href="#" class="btn btn-info py-0 text-white  btn-sm fw-bold">React</button>
+                </div>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 ">
+              <img src="/ejercicios/imagenes/di maria.jpg" class="card-img-top " alt="...">
+
+              <div class="card-body">
+                <button href="#" class="btn btn-secondary py-0  btn-sm fw-bold ">Javascript</button>
+                <button href="#" class="btn btn-danger py-0 text-white  btn-sm fw-bold">React</button>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-1"></div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row ">
+        <img class=" col-md-6 px-0 img-fluid  " src="/ejercicios/imagenes/honolulu.jpg " alt="">
+        <div class=" col-md-6 bg-dark bg-opacity-75 text-white  ">
+          <h1>
+            Bs-As Octubre
+          </h1>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolor alias mollitia repellat ducimus ut
+            explicabo rerum sint nihil, minus voluptatibus similique libero unde assumenda cum totam reiciendis ipsum
+            quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates obcaecati nisi quos in sunt
+            voluptatum vel neque quidem. Optio hic modi, dolorem ex cupiditate ipsa ad exercitationem enim similique
+            amet.</p>
+          <button class="btn btn bg-transparent btn-lg text-white border border-white" type="button">Conoce más</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <h5>Convertite en </h5>
+      <h2>Orador</h2>
+      <p>convertite en orador para dar una <a href="#" class="text-reset">charla inite</a>.cuentanos de
+        quien quieres hablar</p>
+
+    </div>
+    <form class="" action="index.html">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-md mb-3">
+
+          <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre" required>
+        </div>
+        <div class="col-md mb-3">
+
+          <input type="text" name="apellido" id="apellido" class="form-control" placeholder="Apellido" required>
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <div class="row ">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <div class="form-outline mb-4">
+            <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+            <label class="form-label text-muted" for="form4Example3">Recuerda incluir un titulo para tu charla</label>
+
+          </div>
+          <input class="btn  col-12 " style="background-color: rgb(150, 201, 62)" type="submit">
+        </div>
+        <div class="col-3"></div>
+
+      </div>
+      <footer>
+
+        <!-- <nav class="navbar md-lg  navbar-dark text-white py-4  fs-5 " style="background-color:rgb(29,67,88)">
+             <div class="conteiner-fluid">
+              <div class=" navbar-nav mx-3 d-flex px-3 ">
+                <a class="nav-link" href="#">Preguntas frecuentes</a>
+                <a class="nav-link" href="#">contactenos</a>
+                <a class="nav-link" href="#">prensa</a>
+                <a class="nav-link" href="#">conferencias</a>
+                <a class="nav-link" href="#">terminos y condiciones</a>
+                <a class="nav-link" href="#">Privacidad </a>
+                <a class="nav-link" href="#">Esctudiantes</a>
       
-      
+              </div>
+              
+             </div>     
+            
+          </nav>-->
+
+        <nav class="navbar mt-3 md-lg-sm-xsm  navbar-dark text-white py-4   fs-6  "
+          style="background-color:rgb(29,67,88)"">
+            <div class=" container-fluid mx-4">
+          <a class="nav-link " href="#">Preguntas frecuentes</a>
+          <a class="nav-link" href="#">contactenos</a>
+          <a class="nav-link" href="#">prensa</a>
+          <a class="nav-link" href="#">conferencias</a>
+          <a class="nav-link" href="#">terminos y condiciones</a>
+          <a class="nav-link" href="#">Privacidad </a>
+          <a class="nav-link" href="#">Esctudiantes</a>
+          </div>
+        </nav>
+
+
+      </footer>
+
+
 </body>
+
 </html>
